@@ -16,5 +16,7 @@ public class Movie extends LibraryItem{
     public void setRuntime(int runtime){
         this.runtime=runtime;
     }
-
+@Override 
+    public Sting toSting (){ 
+        return "title"+getName+"director by'+director+year}
 }
